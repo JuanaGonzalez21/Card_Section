@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --color-principal: gray;
+  --color-titulos: #444447;
+  --tamaño-fuente: 16px;
+}
+
+.container {
+  margin: 40px;
+}
+
+.containerText {
+  margin: 90px 0;
+}
+
+.titleText {
+  color: var(--color-principal);
+  font-size: 27px;
+  font-weight: 200;
+}
+
+.titleText span {
+  color: var(--color-titulos);
+  font-weight: 600;
+}
+
+.text {
+  margin: 20px 0;
+  text-align: center;
+  color: var(--color-principal);
+  opacity: 70%;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: -1px 16px 77px -33px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 16px 77px -33px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 16px 77px -33px rgba(0,0,0,0.75);
+  margin: 20px 0;
+}
+
+.card h2 {
+  color: var(--color-titulos);
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: var(--color-titulos);
+  margin-bottom: 52px;
+  opacity: 40%;
+}
+
+.card .cardImg {
+  width: auto;
+  display: flex;
+  justify-content: end;
+  padding: 0 10px 10px 0px;
+}
+
+.supervisor {
+  border-top: 4px solid #49cfd0;
+}
+
+.builder {
+  border-top: 4px solid #db5b5f;
+}
+
+.karma {
+  border-top: 4px solid #edae61;
+}
+
+.calculator {
+  border-top: 4px solid #5b9ae0;
+}
+
+@media screen and ( min-width: 530px) {
+
+  .container {
+    margin: 0px;
+  }
+  .containerText {
+    margin: 67px 0 20px;
+    display: flex;
+    width: calc(100%);
+    justify-content: center;
+    text-align: center;
+  }
+  .title {
+    width: 540px;
+
+  }
+  .titleText {
+    margin: 0 50px;
+  }
+
+  .containerCard {
+    display: flex;
+    justify-content: center;
+
+  }
+  .card {
+    width: 345px;
+    margin: 20px;
+    height: 220px;
+  }
+
+
+  .supervisor {
+   align-self: center;
+  }
+  
+  .builder {
+   align-self: center;
+  }
+  
+  .karma {
+   align-self: center;
+  }
+  
+  .calculator {
+   align-self: center;
+  }
+  .supervisor {
+  }
+  .titleCard {
+  }
+  .cardImg {
+  }
+  .builder {
+  }
+  .karma {
+  }
+  .calculator {
+  }
+}
